@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+from webportal.client_api.base.labels import BaseLabels
+
+
+class MyShowsLabels(BaseLabels):
+
+    """header"""
+    LBL_SIGN_IN = "Sign in"
+    LBL_SIGN_OUT = "Sign out"
+    LBL_WHAT_TO_WATCH = "WHAT TO WATCH"
+    LBL_BUCKEYE_SIGN_IN = "Sign in with Buckeye TV Everywhere"
+    LBL_WOW_SIGN_IN = "Welcome, Please Log In"
+    LBL_Armstrong_SIGN_IN = "Register for an ArmstrongOneWire.com account to pay your bill online and manage your " \
+                            "TV, Internet, and Phone services."
+    LBL_SEARCH_NAME = "Tom Cruise"
+    LBL_SEARCH_BIRTH_DATE = "Birthdate: July 3, 1962"
+    LBL_SEARCH_BIRTH_PLACE = "Birthplace: Syracuse, New York, United States"
+    LBL_ONE_PASS_CREATED_TEXT = "OnePass™ Created"
+    LBL_NEWLY_AVAILABLE = "Newly Available"
+    LBL_LIVE_TV_CHANNELS = "Live TV Channels"
+    LBL_MY_SHOWS = "My Shows"
+    LBL_POPULAR = "Popular"
+    LBL_RECOMMENDATIONS = "Recommendations"
+    LBL_BROWSE_CATEGORIES = "Browse Categories"
+
+    LBL_HELP = "Help"
+
+    LBL_WHATTOWATCH = "WHAT TO WATCH"
+    LBL_MYSHOWS = "MY SHOWS"
+    LBL_GUIDE = "GUIDE"
+    LBL_BROWSE = "BROWSE"
+    LBL_MANAGE = "MANAGE"
+
+    LBL_ALLSHOWS = "All Shows"
+    LBL_PARTIALLYWATCHED = "PARTIALLY WATCHED"
+    LBL_TVSERIES = "TVSERIES"
+    LBL_MOVIES = "MOVIES"
+    LBL_SPORTS = "SPORTS"
+    LBL_KIDS = "KIDS"
+    LBL_SUGGESTIONS = "SUGGESTIONS"
+
+    LBL_ONEPASS_QUICK_SELECT = "OnePass™ Quick Select!"
+    LBL_MYSHOWSTEXT = "myshows"
+    LBL_GUIDE_TEXT = "guide"
+    LBL_BROWSE_TV = "browse/tv"
+    CLASS = "class"
+    LBL_BROWSE_TVTEXT = "tv"
+    LBL_BROWSE_MOVIES = "browse/movies"
+    LBL_BROWSE_MOVIESTEXT = "mov"
+    LBL_BROWSE_SPORTS = "browse/sports"
+    LBL_MANAGETEXT = "manage"
+    LBL_TRANSFER = "transfer"
+    LBL_QUICKSELECTTEXT = "quickselect"
+    LBL_TODOLIST_TEXT = "todolist"
+    LBL_HISTORY = "history"
+    LBL_RECORDING_CONFIRMATION_POPUP_TEXT = "Recording Scheduled"
+
+    LBL_EPISODE_ADDED = "This episode has been added to My Shows"
+    LBL_BOOKMARK_MOVIE = "Bookmark this movie"
