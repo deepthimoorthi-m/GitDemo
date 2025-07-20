@@ -26,6 +26,7 @@ class TestWhatToWatch:
         self.wtw_assertions.mainDropDownMenu_NotPresent_assert()
         self.log.step("Step 2: Expectancy 3: Verify 'SignOut' link is NOT displayed")
         self.wtw_assertions.signOutLink_NotPresent_assert()
+        self.wtw_assertions.signOutLink_NotPresent_assert() #new change
 
     @pytest.mark.sanity
     def test_4980949_createOnePass(self, setup_myshows_delete_everything, setup_login):

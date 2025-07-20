@@ -14,6 +14,7 @@ class WebPortalSettings:
     retries = 1
     hasRecordablechannels = True
 ####################
+    #### added$$$$$$$$$$$$$$$$$$$
     # retail Settings
     TENANT = "http://tve.tivolatest.tivo.com/"
     username = "iorzetic@tivo.com"
